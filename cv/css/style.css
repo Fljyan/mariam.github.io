@@ -86,6 +86,20 @@ ul {
     list-style : none;
 }
 
+.lang {
+    border-radius: 10px;
+    padding: 5px 12px;
+   
+    float: right;
+}
+
+.flag-icon {
+    transition: transform .2s;
+}
+
+.flag-icon:hover {
+    transform: scale(1.2);
+}
 
 .btn {
     padding        : 14px 30px 11px;
